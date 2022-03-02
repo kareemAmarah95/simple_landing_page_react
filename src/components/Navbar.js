@@ -11,16 +11,17 @@ const Navbar = () => {
     <header>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/"></Link>
-          <img
-            src={Logo}
-            alt=""
-            style={{
-              position: "absolute !important",
-              zIndex: "222 !important",
-              left: "1000px !important",
-            }}
-          />
+          {/* <Link to="/"> */}
+            <img
+              src={Logo}
+              alt=""
+              style={{
+                position: "absolute !important",
+                zIndex: "222 !important",
+                left: "1000px !important",
+              }}
+            />
+          {/* </Link> */}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
